@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Kyoto, Japan",
+    "country": "Japan",
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "priceTier": "\u20ac\u20ac\u20ac",
+    "priceMin": 1500,
+    "priceMax": 2800,
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov"
+    ],
+    "durationDays": 10,
+    "types": [
+      "Culture",
+      "City trip"
+    ],
+    "status": "Planned",
+    "notes": "Cherry blossom; book early."
+  },
+  {
+    "name": "Patagonia, Argentina",
+    "country": "Argentina",
+    "lat": -50.9423,
+    "lng": -73.4068,
+    "priceTier": "\u20ac\u20ac\u20ac",
+    "bestMonths": [
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "durationDays": 14,
+    "types": [
+      "Active",
+      "Nature",
+      "Backpack"
+    ],
+    "status": "Planned",
+    "notes": "Torres del Paine W trek."
+  },
+  {
+    "name": "Amalfi Coast, Italy",
+    "country": "Italy",
+    "lat": 40.634,
+    "lng": 14.602,
+    "priceTier": "\u20ac\u20ac\u20ac",
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Sep"
+    ],
+    "durationDays": 7,
+    "types": [
+      "Relax",
+      "Roadtrip",
+      "Beach"
+    ],
+    "status": "Done",
+    "notes": "Avoid peak August traffic."
+  }
+]
