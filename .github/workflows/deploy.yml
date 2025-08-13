@@ -1,4 +1,4 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy Vite site to GitHub Pages (no lockfile)
 
 on:
   push:
@@ -19,12 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: npm
+
+      # Install without lock file
       - run: npm install
+
+      # Build the site
       - run: npm run build
+
+      # Upload the built site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
@@ -38,3 +44,4 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
